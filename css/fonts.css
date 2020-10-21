@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('./../fonts/icon.eot?cqhb5r');
+  src:  url('./../fonts/icon.eot?cqhb5r#iefix') format('embedded-opentype'),
+    url('./../fonts/icon.ttf?cqhb5r') format('truetype'),
+    url('./../fonts/icon.woff?cqhb5r') format('woff'),
+    url('./../fonts/icon.svg?cqhb5r#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-anexos:before {
+  content: "\e900";
+}
+.icon-assistance:before {
+  content: "\e901";
+}
+.icon-camera:before {
+  content: "\e902";
+}
+.icon-cc:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-credits:before {
+  content: "\e905";
+}
+.icon-game:before {
+  content: "\e906";
+}
+.icon-glossary:before {
+  content: "\e907";
+}
+.icon-instructions:before {
+  content: "\e908";
+}
+.icon-introduction:before {
+  content: "\e909";
+}
+.icon-left-bold:before {
+  content: "\e90a";
+}
+.icon-left:before {
+  content: "\e90b";
+}
+.icon-map:before {
+  content: "\e90c";
+}
+.icon-menu:before {
+  content: "\e90d";
+}
+.icon-pdf:before {
+  content: "\e90e";
+}
+.icon-qr:before {
+  content: "\e90f";
+}
+.icon-references:before {
+  content: "\e910";
+}
+.icon-right-bold:before {
+  content: "\e911";
+}
+.icon-right:before {
+  content: "\e912";
+}
+.icon-theme-1:before {
+  content: "\e913";
+}
+.icon-theme-2:before {
+  content: "\e914";
+}
+.icon-theme-3:before {
+  content: "\e915";
+}
+.icon-theme-4:before {
+  content: "\e916";
+}
+.icon-theme-5:before {
+  content: "\e917";
+}
+.icon-theme-6:before {
+  content: "\e918";
+}
+.icon-theme-7:before {
+  content: "\e919";
+}
+.icon-theme-8:before {
+  content: "\e91a";
+}
+.icon-theme-9:before {
+  content: "\e91b";
+}
+.icon-theme-10:before {
+  content: "\e91c";
+}
+.icon-theme-11:before {
+  content: "\e91d";
+}
+.icon-theme-12:before {
+  content: "\e91e";
+}
+.icon-theme-13:before {
+  content: "\e91f";
+}
+.icon-theme-14:before {
+  content: "\e920";
+}
+.icon-theme-15:before {
+  content: "\e921";
+}
+.icon-theme-16:before {
+  content: "\e922";
+}
+.icon-user:before {
+  content: "\e923";
+}
+.icon-zip:before {
+  content: "\e924";
+}

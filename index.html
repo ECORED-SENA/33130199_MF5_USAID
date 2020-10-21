@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="img/icono.png">
+    <title>Rutas de derivación intersectorial</title>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/animations.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/config.js"></script>
+    <script src="./js/lib.js"></script>
+  </head>
+  <body>
+    <div class="main materialSENA">
+      <div class="scene" id="scene-animation">
+        <div class="block" id="title">
+          <div class="grid--full">
+            <div id="img-taco">
+              <div id="img-logo-gobierno"><img src="./img/logo-gobierno.png"></div>
+              <div id="img-title">
+                <div><span>Desarrollo de Habilidades para el Bienestar Familiar y Comunitario</span><span>Rutas de derivación intersectorial</span></div><img src="./img/logo1.png">
+              </div>
+            </div>
+            <div class="img__background img__background--end"><img src="./img/scene.png">
+              <div id="characters">
+                <div sprite="characters/papahija" bottom="13.5%" right="18%" width="16.01%"></div>
+                <div sprite="characters/familia" bottom="16%" left="12%" width="45.7%"></div>
+              </div>
+            </div>
+            <div id="img-footer"><img src="./img/logo-bienestar.png"></div>
+          </div>
+        </div>
+        <div class="sticky" folder="introduction" icon="introduction" label="Introducción"></div>
+        <div class="sticky" folder="theme1" icon="theme-1" label="1. Derivación y rutas de atención" label-mobile="Derivación">
+          <div buttons>
+            <div label="1.1 Identificación de afectaciones del bienestar socioemocional y proceso de atención ante posibles trastornos de salud mental " label-mobile="Identificación de afectaciones"></div>
+            <div label="1.2 Estrategias para la articulación intersectorial en temas de salud mental proyectadas por el Estado colombiano en el CONPES 3992 de 2020" label-mobile="Estrategias para la articulación"></div>
+          </div>
+        </div>
+        <div class="sticky sticky--minimum" folder="anexos" icon="anexos" label="Anexos"></div>
+      </div>
+    </div>
+    <div class="main-hidden" aria-hidden="true">
+      <div class="popup" id="popup">
+        <div class="popup__dialog">
+          <header>
+            <p class="popup__title"></p><a class="popup__close"><span> <i class="icon icon-close"></i></span></a>
+          </header>
+          <section class="popup__content">
+            <div></div>
+          </section>
+          <footer class="popup__footer popup__footer--center">
+          </footer>
+        </div>
+      </div>
+      <div class="popup" id="presentation">
+        <div class="popup__dialog">
+          <header>
+            <p class="popup__title"></p><a class="popup__close"><span> <i class="icon icon-close"></i></span></a>
+          </header>
+          <section class="popup__content">
+            <div></div>
+            <div class="popup__content-submenu"></div>
+          </section>
+          <footer class="popup__footer popup__footer--center">
+            <button class="popup__plus">+</button>
+            <div class="popup__navigation popup__navigation--left">
+              <button><span> <i class="icon icon-left"></i></span></button><span class="popup__pagination"></span>
+              <button><span> <i class="icon icon-right"></i></span></button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div id="sticky-demo">
+        <div class="sticky__head">
+          <div class="sticky__title"></div>
+          <div class="sticky__menu"></div>
+        </div>
+        <div class="sticky__content">
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <nav class="menu-bar menu-bar--popup menu-bar--top">
+        <div class="menu-bar__main">
+          <div><a class="menu-bar__open" href="#menu"><span><i class="icon icon-menu"></i></span></a></div>
+          <ul>
+            <li><a href="#text-glossary" aria-label="Consultar glosario de terminos" presentation="glossary" title="Glosario de terminos"><span>Glosario</span><span aria-hidden="true"><i class="icon icon-glossary"></i></span></a></li>
+            <li><a href="#text-references" aria-label="Consultar referencias bibliográficas" presentation="references" title="Referencias bibliográficas"><span>Referencias</span><span aria-hidden="true"><i class="icon icon-references"></i></span></a></li>
+            <li><a href="./download/MF5_Rutas_de_derivacion_intersectorial.pdf" target="_blank" aria-label="Descargar la versión PDF"><span>Descargar PDF</span><span aria-hidden="true"><i class="icon icon-pdf"></i></span></a></li>
+            <li><a href="./download/ova.zip" remove-download="true" target="_blank" aria-label="Descargar versión multimedia del recurso"><span>Descargar OVA</span><span aria-hidden="true"><i class="icon icon-zip"></i></span></a></li>
+            <li><a href="#text-credits" aria-label="Consultar créditos" presentation="credits" title="Créditos"><span>Créditos</span><span aria-hidden="true"><i class="icon icon-credits"></i></span></a></li>
+          </ul>
+        </div>
+        <div class="menu-bar__side"></div>
+      </nav>
+    </div>
+  </body>
+</html>
